@@ -4,7 +4,7 @@ function calcularCuotas(){
     var numeroCuotas = parseFloat(document.getElementById("inputCuotas").value);
 
 
-    resultado = capital * ( (Math.pow((1+interes),numeroCuotas) * interes) / (Math.pow((1+interes), numeroCuotas) - 1))
+    resultado = capital * ( (Math.pow((1+interes),numeroCuotas) * interes) / (Math.pow((1+interes), numeroCuotas) - 1)   )
     document.getElementById("resultado").innerHTML = "total " + resultado.toFixed(2);
     return resultado;
 } 
