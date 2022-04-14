@@ -7,6 +7,7 @@ function calcularCuotas(){
     resultado = capital * ( (Math.pow((1+interes),numeroCuotas) * interes) / (Math.pow((1+interes), numeroCuotas) - 1)   )
     document.getElementById("resultado").innerHTML = "total " + resultado.toFixed(2);
     return resultado;
+    //viendo xd
 } 
 
 
